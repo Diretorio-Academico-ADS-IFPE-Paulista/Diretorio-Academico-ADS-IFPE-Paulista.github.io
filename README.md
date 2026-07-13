@@ -1,4 +1,4 @@
-# PaginaDiretorioAcademico
+# Site Diretório Acadêmico
 Página do Diretório Acadêmico do Instituto Federal de Educação Ciência e Tecnologia - Campus Paulista.
 
 ## Documentação do projeto
