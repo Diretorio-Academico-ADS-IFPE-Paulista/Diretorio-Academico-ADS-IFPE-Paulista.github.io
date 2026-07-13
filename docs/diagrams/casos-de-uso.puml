@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor Visitante
+actor "Coordenador / Membro Responsável" as Coordenador
+
+rectangle "Site do DA-ADS" {
+  usecase "Ver Home" as UC1
+  usecase "Ver Sobre o DA" as UC2
+  usecase "Ver Diretoria" as UC3
+  usecase "Ver Calendário" as UC4
+  usecase "Ver Contato" as UC5
+  usecase "Acessar Redes Sociais" as UC6
+  usecase "Atualizar Calendário" as UC7
+  usecase "Atualizar Conteúdo da Diretoria" as UC8
+}
+
+Visitante --> UC1
+Visitante --> UC2
+Visitante --> UC3
+Visitante --> UC4
+Visitante --> UC5
+Visitante --> UC6
+Coordenador --> UC7
+Coordenador --> UC8
+@enduml
