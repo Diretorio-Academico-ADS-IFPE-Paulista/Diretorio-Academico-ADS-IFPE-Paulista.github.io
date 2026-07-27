@@ -26,3 +26,14 @@
   --bs-btn-disabled-bg: #1B8A5A;
   --bs-btn-disabled-border-color: #1B8A5A;
 }
+
+div#cardsEquipe .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+  border: 2px solid rgba(0,0,0,0.125); 
+}
+
+div#cardsEquipe .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important; 
+  border-color: var(--bs-primary) !important; 
+}
