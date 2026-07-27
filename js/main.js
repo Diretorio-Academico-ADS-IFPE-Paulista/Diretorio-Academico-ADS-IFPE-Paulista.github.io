@@ -1,3 +1,9 @@
+const favicon = document.createElement('link');
+favicon.rel = 'icon';
+favicon.href = 'assets/img/logo.ico';
+favicon.type = 'image/x-icon';
+document.head.appendChild(favicon);
+
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-include]').forEach((element) => {
     const includePath = element.getAttribute('data-include');
@@ -56,7 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card shadow-sm h-100 text-center">
               
-              <!-- Injeta a imagem ou o ícone aqui, no topo do card -->
               ${midiaPerfil}
               
               <div class="card-body">
@@ -68,7 +73,9 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         `;
       });
-      conteiner.innerHTML = conteudoHTML;
+      if(conteiner){
+        conteiner.innerHTML = conteudoHTML;
+      }
      })
      .catch(error => {
        console.error('Erro:', error);
