@@ -83,25 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  const formContato = document.getElementById('formContato');
-
-  if (formContato) {
-    formContato.addEventListener('submit', (evento) => {
-      evento.preventDefault();
-
-      const nome = document.getElementById('campoNome').value;
-      const assunto = document.getElementById('campoAssunto').value;
-      const mensagem = document.getElementById('campoMensagem').value;
-
-      const corpoEmail = `Nome: ${nome}\n\n${mensagem}`;
-      const linkMailto = `mailto:da.ads.ifpepaulista@gmail.com?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpoEmail)}`;
-
-      window.location.href = linkMailto;
-    });
-  }
-});
-
-document.addEventListener('DOMContentLoaded', () => {
   fetch('data/professores.json')
     .then(response => {
       if(!response.ok){
