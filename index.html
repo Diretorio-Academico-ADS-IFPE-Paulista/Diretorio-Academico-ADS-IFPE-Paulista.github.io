@@ -13,9 +13,11 @@
 
   <div data-include="includes/nav.html"></div>
 
-  <main class="container text-center mt-4 mb-5 flex-grow-1">
-    <div class="row justify-content-center text-center align-items-center">
-      <div class="col-12 col-md-10 col-lg-8 px-4 py-4">
+  <main class="container mt-4 mb-5 flex-grow-1">
+    <div class="row justify-content-center align-items-center py-4">
+      <div class="col-12 col-lg-7 px-4 text-center text-lg-start">
+
+        <img src="assets/img/logo.png" alt="Logo do Diretório Acadêmico de ADS" class="logo-hero mb-4">
 
         <h1 class="display-6 fw-semibold text-primary mb-3">
           Diretório Acadêmico de Análise e Desenvolvimento de Sistemas
@@ -32,6 +34,34 @@
           </a>
         </div>
 
+      </div>
+
+      <div class="col-12 col-lg-5 px-4 mt-5 mt-lg-0">
+        <div class="painel-lateral">
+          <h2 class="fw-semibold text-primary fs-5 mb-3">Acesso Rápido</h2>
+
+          <a href="https://qacademico.ifpe.edu.br/" target="_blank" rel="noopener noreferrer" class="card-atalho w-100 flex-row justify-content-start mb-3">
+            <i class="bi bi-box-arrow-up-right"></i>
+            <span>Q Acadêmico</span>
+          </a>
+
+          <a href="https://drive.google.com/drive/folders/1jkT5QdyVr-LZVs3WueaoZyZ5-33yHjgy" target="_blank" rel="noopener noreferrer" class="card-atalho w-100 flex-row justify-content-start mb-3">
+            <i class="bi bi-calendar3"></i>
+            <span>Horários das Turmas</span>
+          </a>
+
+          <div class="teaser-evento d-flex flex-column gap-2 text-start">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-calendar-event text-secondary"></i>
+              <span class="text-uppercase small fw-semibold text-muted">Próximo evento</span>
+            </div>
+            <div class="fw-bold text-primary" id="teaserEventoTitulo">Carregando...</div>
+            <div class="small text-muted" id="teaserEventoData"></div>
+            <a href="eventos.html" class="btn btn-outline-primary btn-sm fw-semibold align-self-start mt-1">
+              Ver todos <i class="bi bi-arrow-right ms-1"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </main>

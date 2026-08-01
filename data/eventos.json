@@ -1,23 +1,16 @@
 [
     {
         "titulo": "Apadrinhamento de Calouros",
-        "data": "PREENCHER DATA",
-        "local": "PREENCHER LOCAL",
-        "descricao": "PREENCHER DESCRIÇÃO — texto de exemplo só pra visualizar o layout do carrossel.",
-        "imagem": ""
-    },
-    {
-        "titulo": "Semana Nacional de Tecnologia",
-        "data": "PREENCHER DATA",
-        "local": "PREENCHER LOCAL",
-        "descricao": "PREENCHER DESCRIÇÃO — texto de exemplo só pra visualizar o layout do carrossel.",
-        "imagem": ""
+        "data": "05/08/2026 (Quarta-feira) - Manhã e Noite",
+        "local": "Sala do DA",
+        "descricao": "Programa de Apadrinhamento do curso de ADS: veteranos acompanham calouros nos primeiros meses da graduação, tirando dúvidas sobre disciplinas, professores e vida acadêmica. Acontece durante a recepção dos calouros. participe pela manhã, à noite, ou nos dois horários!",
+        "imagem": "assets/img/eventos/padrinhos.png"
     },
     {
         "titulo": "Oficina de Git",
-        "data": "PREENCHER DATA",
-        "local": "PREENCHER LOCAL",
-        "descricao": "PREENCHER DESCRIÇÃO — texto de exemplo só pra visualizar o layout do carrossel.",
-        "imagem": ""
+        "data": "Em breve",
+        "local": "Em breve",
+        "descricao": "Em breve",
+        "imagem": "assets/img/eventos/1634570143-OficinadeGitGithub-logo.png"
     }
 ]
