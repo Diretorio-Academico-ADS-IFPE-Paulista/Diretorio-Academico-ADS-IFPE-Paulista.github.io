@@ -137,3 +137,55 @@ document.addEventListener('DOMContentLoaded', () => {
        console.error('Erro:', error);
       });
 });
+
+function montarConteudoEvento(evento) {
+  const estiloFundo = evento.imagem
+    ? `background-image: url('${evento.imagem}');`
+    : '';
+
+  return `
+    <div class="evento-slide ${evento.imagem ? '' : 'evento-slide-sem-foto'}" style="${estiloFundo}">
+      <div class="evento-overlay">
+        <span class="badge-evento-data"><i class="bi bi-calendar-event"></i> ${evento.data}</span>
+        <h3 class="fw-bold mt-2 mb-1">${evento.titulo}</h3>
+        <p class="mb-1"><i class="bi bi-geo-alt"></i> ${evento.local}</p>
+        <p class="mb-0">${evento.descricao}</p>
+      </div>
+    </div>
+  `;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  fetch('data/eventos.json')
+    .then(response => {
+      if(!response.ok){
+        throw new Error('Erro ao carregar o arquivo JSON');
+      }
+      return response.json();
+    })
+    .then(eventos => {
+      const inner = document.getElementById('carouselInnerEventos');
+      const indicadores = document.getElementById('indicadoresEventos');
+
+      if (!inner || !indicadores) return;
+
+      let slidesHTML = '';
+      let indicadoresHTML = '';
+
+      eventos.forEach((evento, indice) => {
+        const ativo = indice === 0 ? 'active' : '';
+
+        slidesHTML += `<div class="carousel-item ${ativo}">${montarConteudoEvento(evento)}</div>`;
+
+        indicadoresHTML += `
+          <button type="button" data-bs-target="#carouselEventos" data-bs-slide-to="${indice}" class="${ativo}" aria-current="${indice === 0 ? 'true' : 'false'}" aria-label="Evento ${indice + 1}"></button>
+        `;
+      });
+
+      inner.innerHTML = slidesHTML;
+      indicadores.innerHTML = indicadoresHTML;
+     })
+     .catch(error => {
+       console.error('Erro:', error);
+      });
+});

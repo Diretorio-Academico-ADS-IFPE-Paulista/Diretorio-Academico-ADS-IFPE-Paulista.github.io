@@ -1,0 +1,23 @@
+[
+    {
+        "titulo": "Apadrinhamento de Calouros",
+        "data": "PREENCHER DATA",
+        "local": "PREENCHER LOCAL",
+        "descricao": "PREENCHER DESCRIÇÃO — texto de exemplo só pra visualizar o layout do carrossel.",
+        "imagem": ""
+    },
+    {
+        "titulo": "Semana Nacional de Tecnologia",
+        "data": "PREENCHER DATA",
+        "local": "PREENCHER LOCAL",
+        "descricao": "PREENCHER DESCRIÇÃO — texto de exemplo só pra visualizar o layout do carrossel.",
+        "imagem": ""
+    },
+    {
+        "titulo": "Oficina de Git",
+        "data": "PREENCHER DATA",
+        "local": "PREENCHER LOCAL",
+        "descricao": "PREENCHER DESCRIÇÃO — texto de exemplo só pra visualizar o layout do carrossel.",
+        "imagem": ""
+    }
+]

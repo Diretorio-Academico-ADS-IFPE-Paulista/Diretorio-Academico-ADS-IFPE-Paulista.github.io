@@ -57,6 +57,37 @@ div#cardsEquipe .card:hover {
   border: 3px solid var(--bs-secondary);
 }
 
+.evento-slide {
+  height: 440px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.evento-slide-sem-foto {
+  background-image: linear-gradient(135deg, var(--bs-primary), var(--bs-secondary));
+}
+
+.evento-overlay {
+  width: 100%;
+  color: #fff;
+  text-align: left;
+  padding: 2.5rem 2rem 2rem;
+  background: linear-gradient(transparent, rgba(0,0,0,0.75));
+}
+
+.badge-evento-data {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  background-color: rgba(255,255,255,0.2);
+  padding: 0.35em 0.9em;
+  border-radius: 50rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 .card-contato {
   border: 1px solid rgba(0,0,0,0.08);
   border-radius: 1rem;

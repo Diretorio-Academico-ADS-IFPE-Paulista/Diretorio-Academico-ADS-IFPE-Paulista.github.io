@@ -15,7 +15,7 @@
     {
         "nome": "Antônio Correia de Sá Barreto Neto",
         "email": "antonio.neto@paulista.ifpe.edu.br",
-        "foto": "",
+        "foto": "assets/img/professores/antonio.jpg",
         "disciplinas": [
             "Aprendizagem de Máquina",
             "Programação para Dispositivos Móveis",
@@ -103,7 +103,7 @@
     {
         "nome": "Mário Gomes de Melo",
         "email": "mario.melo@paulista.ifpe.edu.br",
-        "foto": "",
+        "foto": "assets/img/professores/mario.png",
         "disciplinas": [
             "Banco de Dados I",
             "Algoritmos e Estruturas de Dados",
