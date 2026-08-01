@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(diretoria => {
       const conteiner = document.getElementById('cardsEquipe');
       let conteudoHTML = '';
-      
+
       diretoria.forEach(membro => {
         const midiaPerfil = membro.foto 
           ? `<img src="${membro.foto}" class="card-img-top" alt="Foto de ${membro.nome}" style="height: 250px; object-fit: cover;">`
@@ -183,6 +183,14 @@ document.addEventListener('DOMContentLoaded', () => {
       return response.json();
     })
     .then(eventos => {
+      const teaserTitulo = document.getElementById('teaserEventoTitulo');
+      const teaserData = document.getElementById('teaserEventoData');
+
+      if (teaserTitulo && teaserData && eventos.length > 0) {
+        teaserTitulo.textContent = eventos[0].titulo;
+        teaserData.textContent = eventos[0].data;
+      }
+
       const inner = document.getElementById('carouselInnerEventos');
       const indicadores = document.getElementById('indicadoresEventos');
 
