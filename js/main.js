@@ -81,3 +81,59 @@ document.addEventListener('DOMContentLoaded', () => {
        console.error('Erro:', error);
       });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  fetch('data/professores.json')
+    .then(response => {
+      if(!response.ok){
+        throw new Error('Erro ao carregar o arquivo JSON');
+      }
+      return response.json();
+    })
+    .then(professores => {
+      const conteiner = document.getElementById('cardsProfessores');
+      let conteudoHTML = '';
+
+      professores.forEach(professor => {
+        const avatarPerfil = professor.foto
+          ? `<img src="${professor.foto}" class="avatar-professor" alt="Foto de ${professor.nome}">`
+          : `<div class="avatar-professor d-flex justify-content-center align-items-center bg-light">
+               <i class="bi bi-person-circle text-secondary" style="font-size: 3.2rem;"></i>
+             </div>`;
+
+        const badgesDisciplinas = professor.disciplinas
+          .map(disciplina => `<span class="badge-disciplina">${disciplina}</span>`)
+          .join('');
+
+        const contatoEmail = professor.email
+          ? `<a href="mailto:${professor.email}" class="contato-email"><i class="bi bi-envelope"></i> ${professor.email}</a>`
+          : '';
+
+        const badgeCoordenador = professor.coordenador
+          ? `<span class="badge-coordenador"><i class="bi bi-award-fill"></i> Coordenador do Curso</span>`
+          : '';
+
+        conteudoHTML += `
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="card shadow-sm h-100 text-center card-professor ${professor.coordenador ? 'card-coordenador' : ''}">
+              <div class="card-body d-flex flex-column align-items-center">
+
+                ${badgeCoordenador}
+                ${avatarPerfil}
+
+                <h5 class="card-title text-primary fw-bold mt-3 mb-2">${professor.nome}</h5>
+                <div class="mb-3">${badgesDisciplinas}</div>
+                <div class="mt-auto">${contatoEmail}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+      if(conteiner){
+        conteiner.innerHTML = conteudoHTML;
+      }
+     })
+     .catch(error => {
+       console.error('Erro:', error);
+      });
+});

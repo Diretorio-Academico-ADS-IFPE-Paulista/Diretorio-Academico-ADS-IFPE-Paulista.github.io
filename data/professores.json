@@ -1,0 +1,169 @@
+[
+    {
+        "nome": "Rodrigo Cesar Lira da Silva",
+        "email": "rodrigo.lira@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/rodrigo-lira.jpg",
+        "coordenador": true,
+        "disciplinas": [
+            "Inteligência Artificial",
+            "Desenvolvimento Sistemas Web II",
+            "Introdução ao Trabalho de Conclusão de Curso",
+            "Mineração de Dados",
+            "Tópicos Especiais em Inteligência Artificial"
+        ]
+    },
+    {
+        "nome": "Antônio Correia de Sá Barreto Neto",
+        "email": "antonio.neto@paulista.ifpe.edu.br",
+        "foto": "",
+        "disciplinas": [
+            "Aprendizagem de Máquina",
+            "Programação para Dispositivos Móveis",
+            "Processos Ágeis em Desenvolvimento de Software"
+        ]
+    },
+    {
+        "nome": "Bruno Falcão de Souza Cartaxo",
+        "email": "bruno.cartaxo@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/cartaxo.png",
+        "disciplinas": [
+            "Engenharia de Software",
+            "Projeto de Desenvolvimento de Sistemas Web",
+            "Linguagem de Programação Orientada a Objetos"
+        ]
+    },
+    {
+        "nome": "Camila Mendonça Morais",
+        "email": "camila.morais@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/camila.jpg",
+        "disciplinas": [
+            "Matemática Aplicada"
+        ]
+    },
+    {
+        "nome": "David Alain do Nascimento",
+        "email": "david.alain@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/david-alain.png",
+        "disciplinas": [
+            "Análise e Projeto de Sistemas",
+            "Sistemas Distribuídos",
+            "Tópicos Especiais em Sistemas Operacionais"
+        ]
+    },
+    {
+        "nome": "Elizabeth de Oliveira Camelo",
+        "email": "elizabeth.camelo@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/elizabeth.png",
+        "disciplinas": [
+            "Língua Inglesa Aplicada"
+        ]
+    },
+    {
+        "nome": "Flávio Rosendo da Silva Oliveira",
+        "email": "flavio.oliveira@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/flavio-oliveira.jpg",
+        "disciplinas": [
+            "Inteligência Artificial",
+            "Mineração de Dados",
+            "Metodologia Científica Aplicada"
+        ]
+    },
+    {
+        "nome": "Ivanildo José de Melo Filho",
+        "email": "ivanildo.melo@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/ivanildo.png",
+        "disciplinas": [
+            "Redes de Computadores"
+        ]
+    },
+    {
+        "nome": "Luciana de Lavôr Nunes",
+        "email": "luciana.lavor@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/luciana.jpg",
+        "disciplinas": [
+            "Língua Inglesa Aplicada"
+        ]
+    },
+    {
+        "nome": "Marcelino Jose Caetano",
+        "email": "marcelino.caetano@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/marcelino.png",
+        "disciplinas": [
+            "Gerenciamento de Projetos"
+        ]
+    },
+    {
+        "nome": "Marcelo Alexandre Vilela da Silva",
+        "email": "marcelo.vilela@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/alexandre-vilela.jpg",
+        "disciplinas": [
+            "Ética e Responsabilidade Socioambiental"
+        ]
+    },
+    {
+        "nome": "Mário Gomes de Melo",
+        "email": "mario.melo@paulista.ifpe.edu.br",
+        "foto": "",
+        "disciplinas": [
+            "Banco de Dados I",
+            "Algoritmos e Estruturas de Dados",
+            "Desenvolvimento de Sistemas Web I",
+            "Teste de Software"
+        ]
+    },
+    {
+        "nome": "Mercio Antonio Oliveira de Andrade",
+        "email": "mercio.andrade@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/mercio.png",
+        "disciplinas": [
+            "Iniciação à Informática",
+            "Arquitetura de Computadores",
+            "Sistemas Operacionais",
+            "Tópicos Especiais em Sistemas Embarcados"
+        ]
+    },
+    {
+        "nome": "Paava de Barros de Alencar Carvalho",
+        "email": "paava.carvalho@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/paava.jpg",
+        "disciplinas": [
+            "Empreendedorismo em Negócios de TIC"
+        ]
+    },
+    {
+        "nome": "Paulo Roger Gomes Cordeiro",
+        "email": "paulo.roger@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/paulo-roger.jpg",
+        "disciplinas": [
+            "Segurança da Informação",
+            "Introdução à Programação",
+            "Metodologia Científica Aplicada"
+        ]
+    },
+    {
+        "nome": "Rosecleide Ramos Ferreira",
+        "email": "rose.ferreira@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/rosecleide.jpg",
+        "disciplinas": [
+            "Empreendedorismo em Negócios de TIC"
+        ]
+    },
+    {
+        "nome": "Wandernos de Melo e Silva",
+        "email": "wandernos.melo@paulista.ifpe.edu.br",
+        "foto": "",
+        "disciplinas": [
+            "Estatística Aplicada"
+        ]
+    },
+    {
+        "nome": "Wilbert Santana dos Santos",
+        "email": "wilbert.santos@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/wilbert.jpg",
+        "disciplinas": [
+            "Iniciação à Informática",
+            "Introdução à Programação",
+            "Banco de Dados II"
+        ]
+    }
+]
