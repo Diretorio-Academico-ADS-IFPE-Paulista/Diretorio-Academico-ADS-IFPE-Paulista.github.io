@@ -34,6 +34,64 @@ div#cardsEquipe .card {
 
 div#cardsEquipe .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important; 
-  border-color: var(--bs-primary) !important; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+  border-color: var(--bs-primary) !important;
+}
+
+.card-professor {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 2px solid rgba(0,0,0,0.125);
+}
+
+.card-professor:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-color: var(--bs-primary);
+}
+
+.avatar-professor {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--bs-secondary);
+}
+
+.card-coordenador {
+  border-color: var(--bs-primary) !important;
+  border-width: 2px;
+}
+
+.badge-coordenador {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  background-color: var(--bs-primary);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.35em 0.9em;
+  border-radius: 50rem;
+  margin-bottom: 0.75rem;
+}
+
+.badge-disciplina {
+  display: inline-block;
+  background-color: rgba(var(--bs-primary-rgb), 0.1);
+  color: var(--bs-primary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.35em 0.75em;
+  border-radius: 50rem;
+  margin: 0.2em;
+}
+
+.contato-email {
+  color: var(--bs-secondary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contato-email:hover {
+  text-decoration: underline;
 }
