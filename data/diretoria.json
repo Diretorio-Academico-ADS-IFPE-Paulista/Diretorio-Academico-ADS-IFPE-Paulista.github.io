@@ -3,66 +3,66 @@
         "nome": "Blenda Teodoro",
         "diretoria": "Direção Geral",
         "cargo": "Presidente",
-        "foto": ""
+        "foto": "assets/img/membros/blenda_teodoro.jpg"
     },
     {
         "nome": "David Willyam de Oliveira",
         "diretoria": "Direção Geral",
         "cargo": "Vice-Presidente",
-        "foto": ""
+        "foto": "assets/img/membros/david_de_oliveira.png"
     },
     {
         "nome": "Arthur Pereira",
         "diretoria": "Direção Geral",
         "cargo": "Membro",
-        "foto": ""
+        "foto": "assets/img/membros/arthur_pereira.jpg"
     },
     {
         "nome": "Victor Montes",
         "diretoria": "Diretoria de Comunicação",
         "cargo": "Presidente",
-        "foto": ""
+        "foto": "assets/img/membros/victor_montes.jpg"
     },
     {
         "nome": "Beatriz Pereira",
         "diretoria": "Diretoria de Comunicação",
         "cargo": "Membro",
-        "foto": ""
+        "foto": "assets/img/membros/beatriz_pereira.jpg"
     },
     {
         "nome": "Cintia Ferreira",
         "diretoria": "Diretoria de Comunicação",
         "cargo": "Membro",
-        "foto": ""
+        "foto": "assets/img/membros/cintia_ferreira.png"
     },
     {
         "nome": "Deise Ellen",
         "diretoria": "Diretoria de Comunicação",
         "cargo": "Membro",
-        "foto": ""
+        "foto": "assets/img/membros/deise_ellen.jpg"
     },
     {
         "nome": "Victor Soares",
         "diretoria": "Diretoria Financeira",
         "cargo": "Presidente",
-        "foto": ""
+        "foto": "assets/img/membros/victor_soares.jpeg"
     },
     {
         "nome": "Márcio Luan",
         "diretoria": "Diretoria Financeira",
         "cargo": "Vice-Presidente",
-        "foto": ""
+        "foto": "assets/img/membros/marcio_luan.jpg"
     },
     {
         "nome": "Ingrid Vitória",
         "diretoria": "Diretoria de Mídia",
         "cargo": "Presidente",
-        "foto": ""
+        "foto": "assets/img/membros/ingrid_vitoria.jpg"
     },
     {
         "nome": "Anderson Batista",
         "diretoria": "Diretoria Administrativa",
         "cargo": "Membro",
-        "foto": ""
+        "foto": "assets/img/membros/anderson_batista.jpg"
     }
 ]
