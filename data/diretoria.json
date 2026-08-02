@@ -14,14 +14,26 @@
     {
         "nome": "Arthur Pereira",
         "diretoria": "Direção Geral",
-        "cargo": "Membro",
+        "cargo": "Vice-Presidente",
         "foto": "assets/img/membros/arthur_pereira.jpg"
     },
     {
         "nome": "Victor Montes",
         "diretoria": "Diretoria de Comunicação",
-        "cargo": "Presidente",
+        "cargo": "Diretor",
         "foto": "assets/img/membros/victor_montes.jpg"
+    },
+    {
+        "nome": "Ingrid Vitória",
+        "diretoria": "Diretoria de Mídia",
+        "cargo": "Diretor",
+        "foto": "assets/img/membros/ingrid_vitoria.jpg"
+    },
+    {
+        "nome": "Victor Soares",
+        "diretoria": "Diretoria Financeira",
+        "cargo": "Diretor",
+        "foto": "assets/img/membros/victor_soares.jpeg"
     },
     {
         "nome": "Beatriz Pereira",
@@ -42,22 +54,10 @@
         "foto": "assets/img/membros/deise_ellen.jpg"
     },
     {
-        "nome": "Victor Soares",
-        "diretoria": "Diretoria Financeira",
-        "cargo": "Presidente",
-        "foto": "assets/img/membros/victor_soares.jpeg"
-    },
-    {
         "nome": "Márcio Luan",
         "diretoria": "Diretoria Financeira",
-        "cargo": "Vice-Presidente",
+        "cargo": "Membro",
         "foto": "assets/img/membros/marcio_luan.jpg"
-    },
-    {
-        "nome": "Ingrid Vitória",
-        "diretoria": "Diretoria de Mídia",
-        "cargo": "Presidente",
-        "foto": "assets/img/membros/ingrid_vitoria.jpg"
     },
     {
         "nome": "Anderson Batista",
