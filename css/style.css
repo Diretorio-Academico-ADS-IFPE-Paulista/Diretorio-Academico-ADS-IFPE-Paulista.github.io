@@ -118,6 +118,11 @@ div#cardsEquipe .card:hover {
   background-color: #fafafa;
 }
 
+#modalProfessorFormacao .card-stat {
+  text-align: center;
+  padding: 0.9rem 0.5rem;
+}
+
 .card-stat {
   border: 1px solid rgba(0,0,0,0.08);
   border-radius: 0.75rem;
@@ -227,6 +232,10 @@ div#cardsEquipe .card:hover {
 }
 
 .badge-coordenador {
+  position: absolute;
+  top: -0.8rem;
+  left: 50%;
+  transform: translateX(-50%);
   display: inline-flex;
   align-items: center;
   gap: 0.3em;
@@ -236,7 +245,8 @@ div#cardsEquipe .card:hover {
   font-weight: 700;
   padding: 0.35em 0.9em;
   border-radius: 50rem;
-  margin-bottom: 0.75rem;
+  white-space: nowrap;
+  z-index: 1;
 }
 
 .badge-disciplina {
