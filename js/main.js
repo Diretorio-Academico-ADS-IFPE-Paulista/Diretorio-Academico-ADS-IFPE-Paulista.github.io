@@ -68,20 +68,20 @@ document.addEventListener('DOMContentLoaded', () => {
       let conteudoHTML = '';
 
       diretoria.forEach(membro => {
-        const midiaPerfil = membro.foto 
-          ? `<img src="${membro.foto}" class="card-img-top" alt="Foto de ${membro.nome}" style="height: 250px; object-fit: cover;">`
-          : `<div class="card-img-top d-flex justify-content-center align-items-center bg-light" style="height: 250px;">
-               <i class="bi bi-person-circle text-secondary" style="font-size: 6rem;"></i>
+        const avatarPerfil = membro.foto
+          ? `<img src="${membro.foto}" class="avatar-professor" alt="Foto de ${membro.nome}">`
+          : `<div class="avatar-professor d-flex justify-content-center align-items-center bg-light">
+               <i class="bi bi-person-circle text-secondary" style="font-size: 3.2rem;"></i>
              </div>`;
 
         conteudoHTML += `
           <div class="col-12 col-md-6 col-lg-4 mb-4">
             <div class="card shadow-sm h-100 text-center">
-              
-              ${midiaPerfil}
-              
-              <div class="card-body">
-                <h5 class="card-title text-primary fw-bold">${membro.nome}</h5>
+              <div class="card-body d-flex flex-column align-items-center">
+
+                ${avatarPerfil}
+
+                <h5 class="card-title text-primary fw-bold mt-3 mb-2">${membro.nome}</h5>
                 <p class="card-text text-muted mb-1"><strong>Diretoria:</strong> ${membro.diretoria}</p>
                 <p class="card-text text-muted"><strong>Cargo:</strong> ${membro.cargo}</p>
               </div>
