@@ -306,3 +306,15 @@ div#cardsEquipe .card:hover {
 .navbar-brand:hover p{
   transform: translateX(8px) scale(1.060);
 }
+
+.links-footer a{
+  color:white;
+  text-decoration: none;
+  padding: 0.60rem;
+
+  transition: opacity 100ms ease;
+}
+
+.links-footer a:hover{
+  opacity: 60%;
+}
