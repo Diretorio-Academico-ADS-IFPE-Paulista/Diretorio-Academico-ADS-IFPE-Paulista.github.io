@@ -20,7 +20,23 @@ document.addEventListener('DOMContentLoaded', () => {
           if (includePath.includes('nav.html')) {
             linkAtivo();
           }
-        })
+
+          if (includePath.includes('footer.html')) {
+            const btnTopo = document.getElementById('btn-topo');
+
+            window.addEventListener('scroll', () => {
+              if (window.scrollY > 300) {
+                btnTopo.classList.add('mostrar');
+              } else {
+                btnTopo.classList.remove('mostrar');
+              }
+            });
+
+            btnTopo.addEventListener('click', () => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+          }
+              })
         .catch(error => console.error(error));
     }
   });

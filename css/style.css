@@ -259,3 +259,23 @@ div#cardsEquipe .card:hover {
 .contato-email:hover {
   text-decoration: underline;
 }
+
+#btn-topo {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: none;
+  z-index: 999;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#btn-topo.mostrar {
+  display: block;
+}
