@@ -4,6 +4,12 @@
         "email": "rodrigo.lira@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/rodrigo-lira.jpg",
         "coordenador": true,
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2013" },
+            { "nivel": "Mestrado", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2014" },
+            { "nivel": "Doutorado", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2025" }
+        ],
+        "descricao": "Realiza pós-doutorado em Engenharia de Sistemas na UPE. Atual coordenador do curso de Tecnologia em ADS do IFPE Campus Paulista e conselheiro do CONSUP/IFPE. Membro da SBC, IEEE e Complexity Systems Society.",
         "disciplinas": [
             "Inteligência Artificial",
             "Desenvolvimento Sistemas Web II",
@@ -16,6 +22,12 @@
         "nome": "Antônio Correia de Sá Barreto Neto",
         "email": "antonio.neto@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/antonio.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Ciência da Computação", "instituicao": "FBV", "ano": "2010" },
+            { "nivel": "Mestrado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2014" },
+            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2022" }
+        ],
+        "descricao": "Professor do IFPE desde 2014, em regime de dedicação exclusiva. Tem experiência em Arquitetura de Sistemas de Computação, Aprendizagem de Máquina e Engenharia de Software. Doutorado com pesquisa sobre otimização energética baseada em padrões de uso de smartphones.",
         "disciplinas": [
             "Aprendizagem de Máquina",
             "Programação para Dispositivos Móveis",
@@ -26,6 +38,12 @@
         "nome": "Bruno Falcão de Souza Cartaxo",
         "email": "bruno.cartaxo@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/cartaxo.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Ciência da Computação", "instituicao": "FBV", "ano": "2010" },
+            { "nivel": "Mestrado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2014" },
+            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2018" }
+        ],
+        "descricao": "Doutor e Mestre em Ciência da Computação pelo CIn/UFPE, com atuação em Engenharia de Software, Arquitetura de Software e Engenharia de Software Empírica. Foi coordenador do curso de ADS do IFPE Campus Paulista (2021-2022) e integra o Núcleo Docente Estruturante (NDE). Atualmente também atua na Zup Innovation, além de ter passado mais de oito anos como engenheiro de sistemas no C.E.S.A.R, em projetos com Motorola, HP, Dell, Bematech e Samsung.",
         "disciplinas": [
             "Engenharia de Software",
             "Projeto de Desenvolvimento de Sistemas Web",
@@ -36,6 +54,12 @@
         "nome": "Camila Mendonça Morais",
         "email": "camila.morais@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/camila.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Matemática", "instituicao": "UFPE", "ano": "2011" },
+            { "nivel": "Mestrado", "curso": "Matemática", "instituicao": "UFRPE", "ano": "2014" },
+            { "nivel": "Doutorado", "curso": "Educação Matemática e Tecnológica", "instituicao": "UFPE", "ano": "2021" }
+        ],
+        "descricao": "Professora EBTT do IFPE desde 2015 (dedicação exclusiva), atualmente no Campus Paulista. Pesquisa voltada à Educação Matemática, com foco na integração de tecnologias digitais no ensino técnico integrado ao médio.",
         "disciplinas": [
             "Matemática Aplicada"
         ]
@@ -44,6 +68,12 @@
         "nome": "David Alain do Nascimento",
         "email": "david.alain@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/david-alain.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2011" },
+            { "nivel": "Mestrado", "curso": "Engenharia de Sistemas", "instituicao": "UPE", "ano": "2014" },
+            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2024" }
+        ],
+        "descricao": "Líder do Grupo de Pesquisa em Computação e Comunicação em Tecnologias Emergentes e coordenador do projeto Starfish Cloud (provedor de nuvem de alta disponibilidade) no IFPE. Atua com Redes de Computadores, Sistemas Distribuídos, Sistemas Embarcados e Time-Sensitive Networking (TSN).",
         "disciplinas": [
             "Análise e Projeto de Sistemas",
             "Sistemas Distribuídos",
@@ -54,6 +84,12 @@
         "nome": "Elizabeth de Oliveira Camelo",
         "email": "elizabeth.camelo@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/elizabeth.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Letras (Português/Inglês)", "instituicao": "UFPE", "ano": "2005" },
+            { "nivel": "Mestrado", "curso": "Letras", "instituicao": "UFPE", "ano": "2015" },
+            { "nivel": "Doutorado", "curso": "Letras", "instituicao": "UFPE", "ano": "2024" }
+        ],
+        "descricao": "Doutora e Mestre em Letras (Linguística Aplicada) pela UFPE, com Especialização em Linguística Aplicada ao Ensino de Língua Inglesa pela FAFIRE. Docente efetiva do IFPE, com pesquisa voltada à relação entre linguagem, tecnologia e ensino, formação de professores de inglês e elaboração de material didático de línguas.",
         "disciplinas": [
             "Língua Inglesa Aplicada"
         ]
@@ -62,6 +98,12 @@
         "nome": "Flávio Rosendo da Silva Oliveira",
         "email": "flavio.oliveira@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/flavio-oliveira.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2007" },
+            { "nivel": "Mestrado", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2009" },
+            { "nivel": "Doutorado", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2023" }
+        ],
+        "descricao": "Doutor e Mestre em Engenharia da Computação pela UPE. Pesquisa em Sistemas Inteligentes Híbridos aplicados a Apoio à Decisão, com interesse em Inteligência Computacional e Deep Learning. Participou de projetos financiados por CNPq e FINEP (Intelicolheita, Intelimed) e, mais recentemente, em colaborações com o Ministério da Educação e o Ministério dos Transportes.",
         "disciplinas": [
             "Inteligência Artificial",
             "Mineração de Dados",
@@ -72,6 +114,12 @@
         "nome": "Ivanildo José de Melo Filho",
         "email": "ivanildo.melo@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/ivanildo.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Ciência da Computação", "instituicao": "UNICAP", "ano": "2000" },
+            { "nivel": "Mestrado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2010" },
+            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2017" }
+        ],
+        "descricao": "Doutor e Mestre em Ciência da Computação pela UFPE, Graduado pela UNICAP. Professor do IFPE Campus Paulista e também do Mestrado Profissional em Educação Profissional e Tecnológica (PROFEPT), na linha de Práticas Educativas em EPT. Pesquisa voltada a Tecnologia Educacional e Interação Homem-Máquina; participou de missão MEC/SETEC/CNPq na HAMK University (Finlândia, 2015).",
         "disciplinas": [
             "Redes de Computadores"
         ]
@@ -80,6 +128,12 @@
         "nome": "Luciana de Lavôr Nunes",
         "email": "luciana.lavor@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/luciana.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Direito", "instituicao": "UNICAP", "ano": "1994" },
+            { "nivel": "Graduação", "curso": "Letras (Português/Inglês)", "instituicao": "UNIVERSO", "ano": "2007" },
+            { "nivel": "Mestrado", "curso": "Linguística", "instituicao": "UFPB", "ano": "2016" }
+        ],
+        "descricao": "Mestre em Linguística pela UFPB, com Especialização em Língua Portuguesa e Literatura, Graduação em Letras (Português/Inglês) pela UNIVERSO e Bacharelado em Direito pela UNICAP. Professora do IFPE Campus Paulista.",
         "disciplinas": [
             "Língua Inglesa Aplicada"
         ]
@@ -88,6 +142,11 @@
         "nome": "Marcelino Jose Caetano",
         "email": "marcelino.caetano@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/marcelino.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Administração de Empresas", "instituicao": "UFAL", "ano": "2005" },
+            { "nivel": "Mestrado", "curso": "Administração", "instituicao": "UFPE", "ano": "2013" }
+        ],
+        "descricao": "Mestre em Administração (finanças) pela UFPE, com MBA em Controladoria e Graduação em Administração de Empresas pela UFAL. Foi Diretor de Ensino do IFPE, atuou como Coordenador de Fundos e Programas e Supervisor de Auditoria Interna na Perpart S/A, além de consultor do Sebrae-PE. Experiência em administração financeira, gestão de fundos públicos e projetos de viabilidade econômico-financeira.",
         "disciplinas": [
             "Gerenciamento de Projetos"
         ]
@@ -96,6 +155,12 @@
         "nome": "Marcelo Alexandre Vilela da Silva",
         "email": "marcelo.vilela@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/alexandre-vilela.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Psicologia", "instituicao": "UFPE", "ano": "2017" },
+            { "nivel": "Graduação", "curso": "Comunicação Social - Jornalismo", "instituicao": "UNINASSAU", "ano": "2020" },
+            { "nivel": "Mestrado", "curso": "Ciência da Informação", "instituicao": "UFPE", "ano": "em andamento" }
+        ],
+        "descricao": "Graduado em Psicologia e em Comunicação Social - Jornalismo, com Especialização em Psicologia Organizacional e do Trabalho pela FAFIRE. Cursa Mestrado em Ciência da Informação na UFPE. Pesquisa voltada à gestão da segurança e saúde no trabalho, estresse ocupacional, cultura organizacional e a relação entre informação e poder.",
         "disciplinas": [
             "Ética e Responsabilidade Socioambiental"
         ]
@@ -104,6 +169,12 @@
         "nome": "Mário Gomes de Melo",
         "email": "mario.melo@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/mario.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Sistemas de Informação", "instituicao": "UFRPE", "ano": "2016" },
+            { "nivel": "Mestrado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2019" },
+            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "iniciado em 2019" }
+        ],
+        "descricao": "Mestre em Ciência da Computação (Inteligência Computacional) pela UFPE, com Bacharelado em Sistemas de Informação pela UFRPE. Foi professor do CIn/UFPE e integrante do grupo de pesquisa Computação Natural (CNPq), na linha de Computação Evolucionária. Atualmente também atua no Núcleo Setorial de Informática da Defesa Civil de Pernambuco.",
         "disciplinas": [
             "Banco de Dados I",
             "Algoritmos e Estruturas de Dados",
@@ -115,6 +186,11 @@
         "nome": "Mercio Antonio Oliveira de Andrade",
         "email": "mercio.andrade@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/mercio.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2010" },
+            { "nivel": "Mestrado", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2012" }
+        ],
+        "descricao": "Graduado e Mestre em Engenharia da Computação pela UPE. Pesquisa de mestrado voltada à mitigação de impacto ambiental do lixo eletrônico, com confecção de kits de treinamento a partir de equipamentos descartados. Professor do IFPE Campus Paulista.",
         "disciplinas": [
             "Iniciação à Informática",
             "Arquitetura de Computadores",
@@ -126,6 +202,11 @@
         "nome": "Paava de Barros de Alencar Carvalho",
         "email": "paava.carvalho@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/paava.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Administração de Empresas", "instituicao": "UPE", "ano": "2012" },
+            { "nivel": "Mestrado", "curso": "Gestão Empresarial", "instituicao": "FBV", "ano": "2014" }
+        ],
+        "descricao": "Mestra em Gestão Empresarial pela FBV, com Graduação em Administração de Empresas pela UPE (Campus Salgueiro). Pesquisa voltada à Gestão do Conhecimento, Empreendedorismo, Inovação e Tecnologia. Professora efetiva do IFPE Campus Paulista, com experiência nacional e internacional em administração, empreendedorismo e liderança. Foi Secretária de Cultura e Esportes e Coordenadora de Juventude na Prefeitura de Salgueiro.",
         "disciplinas": [
             "Empreendedorismo em Negócios de TIC"
         ]
@@ -134,6 +215,12 @@
         "nome": "Paulo Roger Gomes Cordeiro",
         "email": "paulo.roger@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/paulo-roger.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2012" },
+            { "nivel": "Mestrado", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2014" },
+            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2024" }
+        ],
+        "descricao": "Doutor em Ciência da Computação pelo CIn/UFPE, com Mestrado e Graduação em Engenharia da Computação pela UPE. Pesquisa em Aprendizagem de Máquina, com foco em Sistemas de Múltiplos Classificadores e Seleção Dinâmica de Ensembles. Área de maior interesse: Inteligência Artificial.",
         "disciplinas": [
             "Segurança da Informação",
             "Introdução à Programação",
@@ -144,6 +231,11 @@
         "nome": "Rosecleide Ramos Ferreira",
         "email": "rose.ferreira@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/rosecleide.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Administração", "instituicao": "FACIGA", "ano": "2002" },
+            { "nivel": "Mestrado", "curso": "Gestão do Desenvolvimento Local Sustentável", "instituicao": "UPE", "ano": "2009" }
+        ],
+        "descricao": "Mestra em Gestão do Desenvolvimento Local Sustentável pela UPE, com Graduação em Administração pela FACIGA e especializações em Marketing e Educação Profissional. Mais de 10 anos de experiência em multinacionais (Walmart, Coca-Cola). Docente do Eixo de Gestão e Negócios e coordenadora do NEI (Núcleo de Empreendedorismo Inovador) no IFPE, além de palestrante e avaliadora de programas de fomento a startups como o Centelha.",
         "disciplinas": [
             "Empreendedorismo em Negócios de TIC"
         ]
@@ -151,7 +243,12 @@
     {
         "nome": "Wandernos de Melo e Silva",
         "email": "wandernos.melo@paulista.ifpe.edu.br",
-        "foto": "",
+        "foto": "assets/img/professores/wandernos.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Matemática", "instituicao": "UFRR", "ano": "2001" },
+            { "nivel": "Mestrado", "curso": "Psicologia da Educação", "instituicao": "ISLA", "ano": "2011" }
+        ],
+        "descricao": "Mestre em Psicologia da Educação pelo ISLA, com Graduação em Matemática pela UFRR e especializações em Pedagogia Escolar e Supervisão Pedagógica. Professor efetivo do IFPE desde 2013, com ampla experiência docente em Matemática, incluindo passagens pela Secretaria de Educação de Roraima e pelo CEFET. Desenvolve projetos de extensão em Matemática Básica, Financeira e Geometria Analítica.",
         "disciplinas": [
             "Estatística Aplicada"
         ]
@@ -160,6 +257,11 @@
         "nome": "Wilbert Santana dos Santos",
         "email": "wilbert.santos@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/wilbert.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Engenharia Elétrica", "instituicao": "UPE", "ano": "2014" },
+            { "nivel": "Graduação", "curso": "Análise e Desenvolvimento de Sistemas", "instituicao": "FIT", "ano": "2023" }
+        ],
+        "descricao": "Graduado em Engenharia Elétrica pela UPE e em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta de Tecnologia (FIT). Experiência na área de Engenharia Elétrica, com ênfase em Circuitos Elétricos, Magnéticos e Eletrônicos. Professor do IFPE Campus Paulista.",
         "disciplinas": [
             "Iniciação à Informática",
             "Introdução à Programação",

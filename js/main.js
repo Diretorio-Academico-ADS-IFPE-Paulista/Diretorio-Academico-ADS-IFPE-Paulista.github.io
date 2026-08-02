@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const conteiner = document.getElementById('cardsProfessores');
       let conteudoHTML = '';
 
-      professores.forEach(professor => {
+      professores.forEach((professor, indice) => {
         const avatarPerfil = professor.foto
           ? `<img src="${professor.foto}" class="avatar-professor" alt="Foto de ${professor.nome}">`
           : `<div class="avatar-professor d-flex justify-content-center align-items-center bg-light">
@@ -121,25 +121,23 @@ document.addEventListener('DOMContentLoaded', () => {
           .map(disciplina => `<span class="badge-disciplina">${disciplina}</span>`)
           .join('');
 
-        const contatoEmail = professor.email
-          ? `<a href="mailto:${professor.email}" class="contato-email"><i class="bi bi-envelope"></i> ${professor.email}</a>`
-          : '';
-
         const badgeCoordenador = professor.coordenador
           ? `<span class="badge-coordenador"><i class="bi bi-award-fill"></i> Coordenador do Curso</span>`
           : '';
 
         conteudoHTML += `
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card shadow-sm h-100 text-center card-professor ${professor.coordenador ? 'card-coordenador' : ''}">
+            <div class="card shadow-sm h-100 text-center card-professor position-relative ${professor.coordenador ? 'card-coordenador' : ''}">
+              ${badgeCoordenador}
               <div class="card-body d-flex flex-column align-items-center">
 
-                ${badgeCoordenador}
                 ${avatarPerfil}
 
                 <h5 class="card-title text-primary fw-bold mt-3 mb-2">${professor.nome}</h5>
                 <div class="mb-3">${badgesDisciplinas}</div>
-                <div class="mt-auto">${contatoEmail}</div>
+                <button type="button" class="btn btn-outline-primary btn-sm btn-ver-detalhes" data-indice="${indice}">
+                  Ver mais
+                </button>
               </div>
             </div>
           </div>
@@ -147,6 +145,50 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       if(conteiner){
         conteiner.innerHTML = conteudoHTML;
+      }
+
+      const modalProfessorEl = document.getElementById('modalProfessor');
+      if (modalProfessorEl) {
+        const modalProfessor = new bootstrap.Modal(modalProfessorEl);
+
+        document.querySelectorAll('.btn-ver-detalhes').forEach(botao => {
+          botao.addEventListener('click', () => {
+            const professor = professores[Number(botao.dataset.indice)];
+
+            document.getElementById('modalProfessorFoto').src = professor.foto || 'assets/img/logo.png';
+            document.getElementById('modalProfessorFoto').alt = `Foto de ${professor.nome}`;
+            document.getElementById('modalProfessorNome').textContent = professor.nome;
+            document.getElementById('modalProfessorDisciplinas').innerHTML = professor.disciplinas
+              .map(disciplina => `<span class="badge-disciplina">${disciplina}</span>`)
+              .join('');
+            const formacaoContainer = document.getElementById('modalProfessorFormacao');
+            formacaoContainer.innerHTML = (professor.formacao || [])
+              .map(item => `
+                <div class="col-4">
+                  <div class="card-stat text-center">
+                    <i class="bi bi-mortarboard-fill card-stat-icon text-primary"></i>
+                    <div class="card-stat-label mb-1">${item.nivel}</div>
+                    <div class="card-stat-valor">${item.curso || ''}</div>
+                    <div class="card-stat-label">${item.instituicao} · ${item.ano}</div>
+                  </div>
+                </div>
+              `)
+              .join('');
+
+            document.getElementById('modalProfessorDescricao').textContent = professor.descricao || 'Descrição em breve.';
+
+            const linkEmail = document.getElementById('modalProfessorEmail');
+            if (professor.email) {
+              linkEmail.href = `mailto:${professor.email}`;
+              linkEmail.innerHTML = `<i class="bi bi-envelope"></i> ${professor.email}`;
+              linkEmail.classList.remove('d-none');
+            } else {
+              linkEmail.classList.add('d-none');
+            }
+
+            modalProfessor.show();
+          });
+        });
       }
      })
      .catch(error => {
