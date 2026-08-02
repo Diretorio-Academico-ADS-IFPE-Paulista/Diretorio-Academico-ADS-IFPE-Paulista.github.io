@@ -328,3 +328,32 @@ div#cardsEquipe .card:hover {
 .links-footer a:hover{
   opacity: 60%;
 }
+
+html[data-bs-theme="dark"] {
+  --bs-primary: #b392f0;
+  --bs-primary-rgb: 179, 146, 240;
+}
+
+.navbar.bg-primary,
+footer.bg-primary,
+.bg-primary.footer {
+  background-color: #4B2E83 !important;
+}
+/*corrige os fundos cinza no tema escuro*/
+html[data-bs-theme="dark"] .painel-lateral,
+html[data-bs-theme="dark"] .teaser-evento,
+html[data-bs-theme="dark"] .card-disciplina {
+  background-color: var(--bs-secondary-bg);
+  border-color: var(--bs-border-color);
+}
+/*corrige o texto escuro nos cards no tema escuro */
+html[data-bs-theme="dark"] .card-stat-valor {
+  color: var(--bs-body-color);
+}
+html[data-bs-theme="dark"] .card-stat-label {
+  color: var(--bs-secondary-color);
+}
+/*corrige a cor dos links do card no tema escuro */
+html[data-bs-theme="dark"] .card-atalho {
+  color: var(--bs-body-color);
+}
