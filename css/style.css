@@ -279,3 +279,30 @@ div#cardsEquipe .card:hover {
 #btn-topo.mostrar {
   display: block;
 }
+
+.navbar-nav .nav-link {
+  transition: transform 100ms ease, color 200ms ease;;
+}
+
+.navbar-nav .nav-link:hover {
+  transform: scale(1.4);
+  color: white;
+}
+
+.navbar-brand div p{
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.da-subtituilo{
+  color: #debcf1;
+  font-size: 0.85rem;
+}
+
+.navbar-brand p{
+  transition: transform 100ms ease;
+}
+
+.navbar-brand:hover p{
+  transform: translateX(8px) scale(1.060);
+}
