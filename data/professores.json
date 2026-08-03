@@ -19,6 +19,35 @@
         ]
     },
     {
+        "nome": "Alba de Oliveira Barbosa",
+        "email": "alba.barbosa@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/alba.png",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Administração", "instituicao": "UFPE", "ano": "2002" },
+            { "nivel": "Mestrado", "curso": "Administração", "instituicao": "UFPE", "ano": "2005" },
+            { "nivel": "Doutorado", "curso": "Administração", "instituicao": "UFRN", "ano": "2013" }
+        ],
+        "descricao": "Doutora em Administração pela UFRN, com Mestrado e Graduação em Administração pela UFPE. Professora titular da área de Gestão e Negócios do IFPE, com experiência em análise de políticas públicas, política pública de turismo, responsabilidade social e administração de recursos humanos.",
+        "disciplinas": [
+            "Ética e Responsabilidade Socioambiental"
+        ]
+    },
+    {
+        "nome": "Anderson Apolônio Lira Queiroz",
+        "email": "anderson.queiroz@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/anderson.jpg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Processamento de Dados", "instituicao": "APESU", "ano": "2003" },
+            { "nivel": "Mestrado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2011" },
+            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2024" }
+        ],
+        "descricao": "Doutor e Mestre em Ciência da Computação pelo CIn/UFPE, com Graduação em Processamento de Dados pela APESU. Atualmente realiza pós-doutorado e atua como Superintendente de Tecnologia da Informação da UFPE, para onde está temporariamente cedido. Professor do curso de ADS e de Redes e Segurança no IFPE, com experiência em Redes de Computadores, Data Centers e Segurança da Informação.",
+        "disciplinas": [
+            "Redes de Computadores",
+            "Segurança da Informação"
+        ]
+    },
+    {
         "nome": "Antônio Correia de Sá Barreto Neto",
         "email": "antonio.neto@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/antonio.jpg",
@@ -163,6 +192,19 @@
         "descricao": "Graduado em Psicologia e em Comunicação Social - Jornalismo, com Especialização em Psicologia Organizacional e do Trabalho pela FAFIRE. Cursa Mestrado em Ciência da Informação na UFPE. Pesquisa voltada à gestão da segurança e saúde no trabalho, estresse ocupacional, cultura organizacional e a relação entre informação e poder.",
         "disciplinas": [
             "Ética e Responsabilidade Socioambiental"
+        ]
+    },
+    {
+        "nome": "Marconi Carvalho de Queiroz",
+        "email": "marconi.queiroz@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/marconi.jpeg",
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Engenharia Elétrica", "instituicao": "UPE", "ano": "1992" },
+            { "nivel": "Mestrado", "curso": "Engenharia de Sistemas", "instituicao": "UPE", "ano": "2025" }
+        ],
+        "descricao": "Graduado em Engenharia Elétrica pela UPE, com experiência nas áreas Broadcast, Informática e manutenção de equipamentos médicos. Servidor do IFPE desde 2015 e também do Ministério Público de Pernambuco (MPPE) desde 2009. Antes da carreira pública, atuou como engenheiro eletrônico sênior na Sony Brasil e foi sócio-gerente da TopVideo Comércio e Serviços.",
+        "disciplinas": [
+            "Iniciação à Informática"
         ]
     },
     {
