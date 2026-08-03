@@ -4,6 +4,9 @@ favicon.href = 'assets/img/logo.ico';
 favicon.type = 'image/x-icon';
 document.head.appendChild(favicon);
 
+const temaSalvo = localStorage.getItem('tema_da_ads') || 'light';
+document.documentElement.setAttribute('data-bs-theme', temaSalvo);
+
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-include]').forEach((element) => {
     const includePath = element.getAttribute('data-include');
@@ -19,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           if (includePath.includes('nav.html')) {
             linkAtivo();
+            configurarTema();
           }
 
           if (includePath.includes('footer.html')) {
@@ -255,3 +259,28 @@ document.addEventListener('DOMContentLoaded', () => {
        console.error('Erro:', error);
       });
 });
+
+function configurarTema() {
+  const btnTema = document.getElementById('btnTema');
+  const iconeTema = document.getElementById('iconeTema');
+  const htmlTag = document.documentElement;
+
+  if (!btnTema) return;
+
+  if (htmlTag.getAttribute('data-bs-theme') === 'dark') {
+    iconeTema.classList.replace('bi-moon-stars-fill', 'bi-sun-fill');
+  }
+  btnTema.addEventListener('click', () => {
+    const temaAtual = htmlTag.getAttribute('data-bs-theme');
+    
+    if (temaAtual === 'dark') {
+      htmlTag.setAttribute('data-bs-theme', 'light');
+      localStorage.setItem('tema_da_ads', 'light');
+      iconeTema.classList.replace('bi-sun-fill', 'bi-moon-stars-fill');
+    } else {
+      htmlTag.setAttribute('data-bs-theme', 'dark');
+      localStorage.setItem('tema_da_ads', 'dark');
+      iconeTema.classList.replace('bi-moon-stars-fill', 'bi-sun-fill');
+    }
+  });
+}
