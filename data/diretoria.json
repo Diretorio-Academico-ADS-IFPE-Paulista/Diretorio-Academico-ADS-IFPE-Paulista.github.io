@@ -14,7 +14,7 @@
     {
         "nome": "Arthur Pereira",
         "diretoria": "Direção Geral",
-        "cargo": "Vice-Presidente",
+        "cargo": "Membro",
         "foto": "assets/img/membros/arthur_pereira.jpg"
     },
     {
@@ -36,6 +36,12 @@
         "foto": "assets/img/membros/victor_soares.jpeg"
     },
     {
+        "nome": "Márcio Luan",
+        "diretoria": "Diretoria Financeira",
+        "cargo": "Vice-Diretor",
+        "foto": "assets/img/membros/marcio_luan.jpg"
+    },
+    {
         "nome": "Beatriz Pereira",
         "diretoria": "Diretoria de Comunicação",
         "cargo": "Membro",
@@ -52,12 +58,6 @@
         "diretoria": "Diretoria de Comunicação",
         "cargo": "Membro",
         "foto": "assets/img/membros/deise_ellen.jpg"
-    },
-    {
-        "nome": "Márcio Luan",
-        "diretoria": "Diretoria Financeira",
-        "cargo": "Membro",
-        "foto": "assets/img/membros/marcio_luan.jpg"
     },
     {
         "nome": "Anderson Batista",
