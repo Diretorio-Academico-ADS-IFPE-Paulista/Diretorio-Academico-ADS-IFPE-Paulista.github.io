@@ -8,6 +8,29 @@ const temaSalvo = localStorage.getItem('tema_da_ads') || 'light';
 document.documentElement.setAttribute('data-bs-theme', temaSalvo);
 
 document.addEventListener('DOMContentLoaded', () => {
+  const botoesTurma = document.querySelectorAll('.btn-turma-horario');
+  const painelHorarios = document.getElementById('conteudoHorario');
+
+  if (botoesTurma.length > 0 && painelHorarios) {
+    botoesTurma.forEach(botao => {
+      botao.addEventListener('click', () => {
+        botoesTurma.forEach(b => b.classList.remove('active'));
+        botao.classList.add('active');
+
+        painelHorarios.querySelectorAll('.tab-pane').forEach(painel => {
+          painel.classList.remove('show', 'active');
+        });
+
+        const alvo = document.querySelector(botao.dataset.bsTarget);
+        if (alvo) {
+          alvo.classList.add('show', 'active');
+        }
+      });
+    });
+  }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('[data-include]').forEach((element) => {
     const includePath = element.getAttribute('data-include');
 

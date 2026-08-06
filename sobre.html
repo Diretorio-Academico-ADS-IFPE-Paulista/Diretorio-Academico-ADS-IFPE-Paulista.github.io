@@ -397,6 +397,291 @@
         <p class="text-muted small mt-4">
           Carga horária total do curso: 2500h/a (2200h/r), incluindo 200h de Prática Profissional e 125h de Atividades Complementares.
         </p>
+
+        <h2 class="fw-semibold text-primary mt-5" id="horarios">Horários das Turmas</h2>
+        <p class="text-muted mb-4">Horário de aula por turma, referente ao semestre 2026.2. Sujeito a alterações, confirme sempre no Q Acadêmico.</p>
+
+        <div class="d-flex flex-column align-items-center gap-2 mb-4">
+          <div class="d-flex align-items-center gap-2 flex-wrap justify-content-center">
+            <span class="rotulo-turno"><i class="bi bi-sun-fill"></i> Manhã</span>
+            <ul class="nav nav-pills flex-wrap gap-2" id="tabsHorarioManha" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active btn-turma-horario" data-bs-target="#turma1M" type="button" role="tab">1º Período Manhã</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link btn-turma-horario" data-bs-target="#turma2M" type="button" role="tab">2º Período Manhã</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link btn-turma-horario" data-bs-target="#turma4M" type="button" role="tab">4º Período Manhã</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link btn-turma-horario" data-bs-target="#turma5M" type="button" role="tab">5º Período Manhã</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link btn-turma-horario" data-bs-target="#turma6M" type="button" role="tab">6º Período Manhã</button>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex align-items-center gap-2 flex-wrap justify-content-center">
+            <span class="rotulo-turno"><i class="bi bi-moon-stars-fill"></i> Noite</span>
+            <ul class="nav nav-pills flex-wrap gap-2" id="tabsHorarioNoite" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link btn-turma-horario" data-bs-target="#turma1N" type="button" role="tab">1º Período Noite</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link btn-turma-horario" data-bs-target="#turma3N" type="button" role="tab">3º Período Noite</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tab-content" id="conteudoHorario">
+          <div class="tab-pane fade show active" id="turma1M" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Terça-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Língua Inglesa Aplicada <span class="professor"><i class="bi bi-person"></i>Elizabeth de Oliveira Camelo</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–12:00</span> Introdução à Programação <span class="professor"><i class="bi bi-person"></i>Paulo Roger Gomes Cordeiro</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quarta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">08:00–11:14</span> Empreendedorismo em Negócios de TIC <span class="professor"><i class="bi bi-person"></i>Rosecleide Ramos Ferreira</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quinta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Iniciação à Informática <span class="professor"><i class="bi bi-person"></i>Mercio Antonio Oliveira de Andrade</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–09:30</span> Língua Inglesa Aplicada <span class="professor"><i class="bi bi-person"></i>Elizabeth de Oliveira Camelo</span></div>
+                  <div class="linha-horario"><span class="badge-horario">10:30–12:00</span> Ética e Responsabilidade Socioambiental <span class="professor"><i class="bi bi-person"></i>Marcelo Alexandre Vilela da Silva</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Sexta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">08:45–12:00</span> Matemática Aplicada <span class="professor"><i class="bi bi-person"></i>Camila Mendonça Morais</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="turma1N" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Segunda-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–21:14</span> Empreendedorismo em Negócios de TIC <span class="professor"><i class="bi bi-person"></i>Paava de Barros de Alencar Carvalho</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Terça-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–21:14</span> Matemática Aplicada <span class="professor"><i class="bi bi-person"></i>Camila Mendonça Morais</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quarta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–21:14</span> Língua Inglesa Aplicada <span class="professor"><i class="bi bi-person"></i>Luciana de Lavôr Nunes</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quinta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–19:44</span> Ética e Responsabilidade Socioambiental <span class="professor"><i class="bi bi-person"></i>Marcelo Alexandre Vilela da Silva</span></div>
+                  <div class="linha-horario"><span class="badge-horario">19:45–21:14</span> Iniciação à Informática <span class="professor"><i class="bi bi-person"></i>Wilbert Santana dos Santos</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Sexta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–21:14</span> Introdução à Programação <span class="professor"><i class="bi bi-person"></i>Wilbert Santana dos Santos</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="turma2M" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Segunda-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Redes de Computadores <span class="professor"><i class="bi bi-person"></i>Ivanildo José de Melo Filho</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–12:00</span> Engenharia de Software <span class="professor"><i class="bi bi-person"></i>Bruno Falcão de Souza Cartaxo</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Terça-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">08:45–12:00</span> Linguagem de Programação Orientada a Objetos <span class="professor"><i class="bi bi-person"></i>Bruno Falcão de Souza Cartaxo</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quarta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–10:29</span> Banco de Dados I <span class="professor"><i class="bi bi-person"></i>Mário Gomes de Melo</span></div>
+                  <div class="linha-horario"><span class="badge-horario">10:30–12:00</span> Redes de Computadores <span class="professor"><i class="bi bi-person"></i>Ivanildo José de Melo Filho</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quinta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Estatística Aplicada <span class="professor"><i class="bi bi-person"></i>Wandernos de Melo e Silva</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–10:29</span> Arquitetura de Computadores <span class="professor"><i class="bi bi-person"></i>Mercio Antonio Oliveira de Andrade</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Sexta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">08:00–09:30</span> Estatística Aplicada <span class="professor"><i class="bi bi-person"></i>Wandernos de Melo e Silva</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="turma3N" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Segunda-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–21:14</span> Inteligência Artificial <span class="professor"><i class="bi bi-person"></i>Rodrigo Cesar Lira da Silva</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Terça-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–21:14</span> Análise e Projeto de Sistemas <span class="professor"><i class="bi bi-person"></i>David Alain do Nascimento</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quarta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–21:14</span> Banco de Dados II <span class="professor"><i class="bi bi-person"></i>Wilbert Santana dos Santos</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quinta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">19:00–22:00</span> Algoritmos e Estruturas de Dados <span class="professor"><i class="bi bi-person"></i>Mário Gomes de Melo</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Sexta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">18:15–21:14</span> Desenvolvimento de Sistemas Web I <span class="professor"><i class="bi bi-person"></i>Mário Gomes de Melo</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="turma4M" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Segunda-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Desenvolvimento de Sistemas Web II <span class="professor"><i class="bi bi-person"></i>Rodrigo Cesar Lira da Silva</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–10:29</span> Aprendizagem de Máquina <span class="professor"><i class="bi bi-person"></i>Antônio Correia de Sá Barreto Neto</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Terça-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Sistemas Distribuídos <span class="professor"><i class="bi bi-person"></i>David Alain do Nascimento</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–10:29</span> Aprendizagem de Máquina <span class="professor"><i class="bi bi-person"></i>Antônio Correia de Sá Barreto Neto</span></div>
+                  <div class="linha-horario"><span class="badge-horario">10:30–12:00</span> Sistemas Distribuídos <span class="professor"><i class="bi bi-person"></i>David Alain do Nascimento</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quarta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Desenvolvimento de Sistemas Web II <span class="professor"><i class="bi bi-person"></i>Rodrigo Cesar Lira da Silva</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–10:29</span> Sistemas Operacionais <span class="professor"><i class="bi bi-person"></i>Mercio Antonio Oliveira de Andrade</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Sexta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Sistemas Operacionais <span class="professor"><i class="bi bi-person"></i>Mercio Antonio Oliveira de Andrade</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–12:00</span> Metodologia Científica Aplicada <span class="professor"><i class="bi bi-person"></i>Paulo Roger Gomes Cordeiro</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="turma5M" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Segunda-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">08:45–10:29</span> Introdução ao TCC <span class="professor"><i class="bi bi-person"></i>Rodrigo Cesar Lira da Silva</span></div>
+                  <div class="linha-horario"><span class="badge-horario">10:30–12:00</span> Tópicos Especiais em Inteligência Artificial <span class="professor"><i class="bi bi-person"></i>Rodrigo Cesar Lira da Silva</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Terça-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Projeto de Desenvolvimento de Sistemas Web <span class="professor"><i class="bi bi-person"></i>Bruno Falcão de Souza Cartaxo</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–12:00</span> Mineração de Dados <span class="professor"><i class="bi bi-person"></i>Rodrigo Cesar Lira da Silva</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quarta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Tópicos Especiais em Sistemas Embarcados <span class="professor"><i class="bi bi-person"></i>Mercio Antonio Oliveira de Andrade</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–10:29</span> Tópicos Especiais em Inteligência Artificial <span class="professor"><i class="bi bi-person"></i>Rodrigo Cesar Lira da Silva</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quinta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">08:45–12:00</span> Teste de Software <span class="professor"><i class="bi bi-person"></i>Mário Gomes de Melo</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Sexta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">10:30–12:00</span> Tópicos Especiais em Sistemas Embarcados <span class="professor"><i class="bi bi-person"></i>Mercio Antonio Oliveira de Andrade</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="turma6M" role="tabpanel">
+            <div class="row g-3">
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Terça-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–10:29</span> Segurança da Informação <span class="professor"><i class="bi bi-person"></i>Paulo Roger Gomes Cordeiro</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quarta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Processos Ágeis em Desenvolvimento de Software <span class="professor"><i class="bi bi-person"></i>Antônio Correia de Sá Barreto Neto</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–10:29</span> Tópicos Especiais em Sistemas Operacionais <span class="professor"><i class="bi bi-person"></i>David Alain do Nascimento</span></div>
+                  <div class="linha-horario"><span class="badge-horario">10:30–12:00</span> Processos Ágeis em Desenvolvimento de Software <span class="professor"><i class="bi bi-person"></i>Antônio Correia de Sá Barreto Neto</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Quinta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Gerenciamento de Projetos <span class="professor"><i class="bi bi-person"></i>Marcelino Jose Caetano</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–12:00</span> Programação para Dispositivos Móveis <span class="professor"><i class="bi bi-person"></i>Antônio Correia de Sá Barreto Neto</span></div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="card-horario-dia">
+                  <h6 class="fw-bold text-primary mb-2">Sexta-feira</h6>
+                  <div class="linha-horario"><span class="badge-horario">07:15–08:44</span> Tópicos Especiais em Sistemas Operacionais <span class="professor"><i class="bi bi-person"></i>David Alain do Nascimento</span></div>
+                  <div class="linha-horario"><span class="badge-horario">08:45–10:29</span> Gerenciamento de Projetos <span class="professor"><i class="bi bi-person"></i>Marcelino Jose Caetano</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </main>
 
     <div data-include="includes/footer.html"></div>
