@@ -150,11 +150,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const badgeCoordenador = professor.coordenador
           ? `<span class="badge-coordenador"><i class="bi bi-award-fill"></i> Coordenador do Curso</span>`
+          : professor.vicecoordenador
+          ? `<span class="badge-coordenador"><i class="bi bi-award"></i> Vice-coordenador do Curso</span>`
           : '';
 
         conteudoHTML += `
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="card shadow-sm h-100 text-center card-professor position-relative ${professor.coordenador ? 'card-coordenador' : ''}">
+            <div class="card shadow-sm h-100 text-center card-professor position-relative ${(professor.coordenador || professor.vicecoordenador) ? 'card-coordenador' : ''}">
               ${badgeCoordenador}
               <div class="card-body d-flex flex-column align-items-center">
 
