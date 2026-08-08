@@ -19,6 +19,23 @@
         ]
     },
     {
+        "nome": "Paulo Roger Gomes Cordeiro",
+        "email": "paulo.roger@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/paulo-roger.jpg",
+        "vicecoordenador": true,
+        "formacao": [
+            { "nivel": "Graduação", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2012" },
+            { "nivel": "Mestrado", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2014" },
+            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2024" }
+        ],
+        "descricao": "Doutor em Ciência da Computação pelo CIn/UFPE, com Mestrado e Graduação em Engenharia da Computação pela UPE. Atual vice-coordenador do curso de Tecnologia em ADS do IFPE Campus Paulista. Pesquisa em Aprendizagem de Máquina, com foco em Sistemas de Múltiplos Classificadores e Seleção Dinâmica de Ensembles. Área de maior interesse: Inteligência Artificial.",
+        "disciplinas": [
+            "Segurança da Informação",
+            "Introdução à Programação",
+            "Metodologia Científica Aplicada"
+        ]
+    },
+    {
         "nome": "Alba de Oliveira Barbosa",
         "email": "alba.barbosa@paulista.ifpe.edu.br",
         "foto": "assets/img/professores/alba.png",
@@ -254,19 +271,16 @@
         ]
     },
     {
-        "nome": "Paulo Roger Gomes Cordeiro",
-        "email": "paulo.roger@paulista.ifpe.edu.br",
-        "foto": "assets/img/professores/paulo-roger.jpg",
+        "nome": "Rodrigo da Rocha Borges de Santana",
+        "email": "rodrigo.rocha@paulista.ifpe.edu.br",
+        "foto": "assets/img/professores/rodrigo-rocha.png",
         "formacao": [
-            { "nivel": "Graduação", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2012" },
-            { "nivel": "Mestrado", "curso": "Engenharia da Computação", "instituicao": "UPE", "ano": "2014" },
-            { "nivel": "Doutorado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2024" }
+            { "nivel": "Graduação", "curso": "Sistemas de Informação", "instituicao": "FIR", "ano": "2009" },
+            { "nivel": "Mestrado", "curso": "Ciência da Computação", "instituicao": "UFPE", "ano": "2013" }
         ],
-        "descricao": "Doutor em Ciência da Computação pelo CIn/UFPE, com Mestrado e Graduação em Engenharia da Computação pela UPE. Pesquisa em Aprendizagem de Máquina, com foco em Sistemas de Múltiplos Classificadores e Seleção Dinâmica de Ensembles. Área de maior interesse: Inteligência Artificial.",
+        "descricao": "Mestre em Ciência da Computação pela UFPE, com Graduação em Sistemas de Informação pela FIR. Servidor da UFPE (CIn), com ampla experiência docente em Programação e Sistemas de Informação, lecionada também na UFRPE e no UNIFAVIP/DeVry. Leciona Introdução à Programação no período noturno do IFPE Campus Paulista.",
         "disciplinas": [
-            "Segurança da Informação",
-            "Introdução à Programação",
-            "Metodologia Científica Aplicada"
+            "Introdução à Programação"
         ]
     },
     {
@@ -305,9 +319,8 @@
         ],
         "descricao": "Graduado em Engenharia Elétrica pela UPE e em Análise e Desenvolvimento de Sistemas pela Faculdade Impacta de Tecnologia (FIT). Experiência na área de Engenharia Elétrica, com ênfase em Circuitos Elétricos, Magnéticos e Eletrônicos. Professor do IFPE Campus Paulista.",
         "disciplinas": [
-            "Iniciação à Informática",
-            "Introdução à Programação",
-            "Banco de Dados II"
+            "Redes de Computadores",
+            "Arquitetura de Computadores"
         ]
     }
 ]
