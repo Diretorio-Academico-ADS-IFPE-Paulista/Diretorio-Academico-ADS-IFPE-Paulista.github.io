@@ -280,7 +280,8 @@
         ],
         "descricao": "Mestre em Ciência da Computação pela UFPE, com Graduação em Sistemas de Informação pela FIR. Servidor da UFPE (CIn), com ampla experiência docente em Programação e Sistemas de Informação, lecionada também na UFRPE e no UNIFAVIP/DeVry. Leciona Introdução à Programação no período noturno do IFPE Campus Paulista.",
         "disciplinas": [
-            "Introdução à Programação"
+            "Introdução à Programação",
+            "Banco de Dados II"
         ]
     },
     {
