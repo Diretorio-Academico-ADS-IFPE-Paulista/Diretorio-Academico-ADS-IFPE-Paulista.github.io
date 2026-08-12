@@ -309,3 +309,22 @@ function configurarTema() {
     }
   });
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const modalIngresso = document.getElementById('modal-ingresso');
+  const btnEtapasIngresso = document.getElementById('botao-modal-etapas');
+  const btnLinkForms = document.getElementById('botao-modal-forms');
+  const btnFecharModalIngresso = document.getElementById('modal-ingresso-fechar');
+
+  modalIngresso.style.display = 'block';
+
+  btnFecharModalIngresso.onclick = () => {
+    modalIngresso.style.display = 'none';
+  }
+
+  window.onclick = (event) => {
+    if (event.target === modalIngresso) {
+      modalIngresso.style.display = 'none';
+    }
+  }
+});
