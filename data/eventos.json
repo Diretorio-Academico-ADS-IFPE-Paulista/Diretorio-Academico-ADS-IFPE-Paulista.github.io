@@ -1,5 +1,12 @@
 [
     {
+        "titulo": "Processo Seletivo Diretório Acadêmico",
+        "data": "14/08/2026",
+        "local": "Sala 01",
+        "descricao": "Inscrição para participar do processo de ingresso no Diretório Acadêmico do curso de Análise e Desenvolvimento de Sistemas.",
+        "imagem": "assets/img/eventos/Ingresso 2026.2.png"
+    },
+    {
         "titulo": "Woman Talks",
         "data": "Em breve",
         "local": "Sala 01",
@@ -12,12 +19,5 @@
         "local": "Em breve",
         "descricao": "Em breve",
         "imagem": "assets/img/eventos/1634570143-OficinadeGitGithub-logo.png"
-    },
-    {
-        "titulo": "Apadrinhamento de Calouros",
-        "data": "06/08/2026 (Quarta-feira) - Manhã e Noite",
-        "local": "Sala dos calouros",
-        "descricao": "Programa de Apadrinhamento do curso de ADS: veteranos acompanham calouros nos primeiros meses da graduação, tirando dúvidas sobre disciplinas, professores e vida acadêmica. Acontece durante a recepção dos calouros. participe pela manhã, à noite, ou nos dois horários!",
-        "imagem": "assets/img/eventos/padrinhos.png"
     }
 ]
