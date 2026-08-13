@@ -4,6 +4,11 @@ favicon.href = 'assets/img/logo.ico';
 favicon.type = 'image/x-icon';
 document.head.appendChild(favicon);
 
+const DATAS_INGRESSO = {
+    abertura: new Date(2026, 7, 20),   /* 14/08/2026 */
+    encerramento: new Date(2026, 8, 22),   /* 21/08/2026 */
+};
+
 const temaSalvo = localStorage.getItem('tema_da_ads') || 'light';
 document.documentElement.setAttribute('data-bs-theme', temaSalvo);
 
