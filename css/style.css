@@ -504,3 +504,57 @@ html[data-bs-theme="dark"] .card-atalho {
   background: #b13228;
   border: 1px solid #c54630;
 }
+
+#modal-ingresso{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  
+  opacity: 0;
+  transition: background-color 200ms ease, opacity 200ms ease;
+}
+
+#modal-ingresso.ativo {
+  opacity: 1;
+}
+
+#modal-ingresso-conteudo {
+  background: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  padding-bottom: 2.6rem;
+  color: #212529;
+
+  transition: transform 200ms ease;
+}
+
+#modal-ingresso-conteudo.ativo{
+  transform: translateY(20px);
+}
+
+#modal-ingresso-conteudo a{
+  width: 80%;
+  max-width: 90%;
+}
+
+#modal-ingresso-fechar{
+  align-self: flex-end;
+  font-size: 24px;
+  cursor: pointer;
+
+  transition: transform 200ms ease;
+}
+
+#modal-ingresso-fechar:hover{
+  transform: translateY(-5px) scale(1.2);
+}
