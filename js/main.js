@@ -315,7 +315,8 @@ function configurarTema() {
   });
 }
 
-if(new Date().setHours(0, 0, 0, 0) >= DATAS_INGRESSO.abertura.getTime()){
+let dataAtual = new Date().setHours(0, 0, 0, 0,);
+if(dataAtual >= DATAS_INGRESSO.abertura.getTime() && dataAtual <= DATAS_INGRESSO.encerramento){
   document.addEventListener('DOMContentLoaded', () => {
     const modalIngresso = document.getElementById('modal-ingresso');
     const modalConteudo = document.getElementById('modal-ingresso-conteudo');
