@@ -5,8 +5,8 @@ favicon.type = 'image/x-icon';
 document.head.appendChild(favicon);
 
 const DATAS_INGRESSO = {
-    abertura: new Date(2026, 7, 20),   /* 14/08/2026 */
-    encerramento: new Date(2026, 8, 22),   /* 21/08/2026 */
+    abertura: new Date(2026, 7, 14),   /* 14/08/2026 */
+    encerramento: new Date(2026, 7, 21),   /* 21/08/2026 */
 };
 
 const temaSalvo = localStorage.getItem('tema_da_ads') || 'light';
@@ -315,21 +315,29 @@ function configurarTema() {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  const modalIngresso = document.getElementById('modal-ingresso');
-  const btnEtapasIngresso = document.getElementById('botao-modal-etapas');
-  const btnLinkForms = document.getElementById('botao-modal-forms');
-  const btnFecharModalIngresso = document.getElementById('modal-ingresso-fechar');
-
-  modalIngresso.style.display = 'block';
-
-  btnFecharModalIngresso.onclick = () => {
-    modalIngresso.style.display = 'none';
-  }
-
-  window.onclick = (event) => {
-    if (event.target === modalIngresso) {
-      modalIngresso.style.display = 'none';
-    }
-  }
-});
+if(new Date().setHours(0, 0, 0, 0) >= DATAS_INGRESSO.abertura.getTime()){
+  document.addEventListener('DOMContentLoaded', () => {
+    const modalIngresso = document.getElementById('modal-ingresso');
+    const modalConteudo = document.getElementById('modal-ingresso-conteudo');
+    const btnEtapasIngresso = document.getElementById('botao-modal-etapas');
+    const btnLinkForms = document.getElementById('botao-modal-forms');
+    const btnFecharModalIngresso = document.getElementById('modal-ingresso-fechar');
+  
+    modalIngresso.style.display = 'block';
+    requestAnimationFrame(() => {
+      modalIngresso.classList.add('ativo');
+      modalConteudo.classList.add('ativo');
+    });
+  
+    btnFecharModalIngresso.addEventListener('click', () => {
+  
+      modalIngresso.classList.remove('ativo');
+      modalConteudo.classList.remove('ativo');
+  
+      modalIngresso.addEventListener('transitionend', () => {
+        modalIngresso.style.display = 'none';
+      }, { once: true });
+    });
+  
+  });
+}
