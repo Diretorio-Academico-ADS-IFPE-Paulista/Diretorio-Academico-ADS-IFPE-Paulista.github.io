@@ -7,11 +7,11 @@
         "imagem": "assets/img/eventos/Ingresso 2026.2.png"
     },
     {
-        "titulo": "Woman Talks",
-        "data": "Em breve",
+        "titulo": "Women Talks",
+        "data": "22/08/2026",
         "local": "Sala 01",
-        "descricao": "Evento organizado pelo DA-ADS voltado para mulheres. Traremos duas ex-alunas já formadas pelo nosso curso e hoje inseridas no mercado de TI para compartilhar suas trajetórias.",
-        "imagem": "assets/img/eventos/woman-talks.jpg"
+        "descricao": "Evento organizado pelo DA-ADS voltado para mulheres. Traremos uma ex-aluna e uma aluna do nosso curso, e hoje inseridas no mercado de TI, para compartilhar suas trajetórias.",
+        "imagem": "assets/img/eventos/Inclusao_no_Mercado_de_Trabalho_para_o_publico_feminio.png"
     },
     {
         "titulo": "Oficina de Git",
