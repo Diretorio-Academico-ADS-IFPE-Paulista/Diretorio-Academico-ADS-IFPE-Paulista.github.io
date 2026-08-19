@@ -526,9 +526,8 @@ html[data-bs-theme="dark"] .card-atalho {
 
 #modal-ingresso-conteudo {
   background: white;
-  margin: 2rem auto;
   padding: 20px;
-  width: 50%;
+  width: min(90%, 500px);
   max-height: 85vh;
   overflow-y: auto;
   border-radius: 1rem;
@@ -557,6 +556,12 @@ html[data-bs-theme="dark"] .card-atalho {
   align-items: center;
   gap: .5rem;
   width: 100%;
+}
+
+.modal-secao h2,
+.modal-secao p{
+  width: 100%;
+  text-align: center;
 }
 
 #modal-divisor{
