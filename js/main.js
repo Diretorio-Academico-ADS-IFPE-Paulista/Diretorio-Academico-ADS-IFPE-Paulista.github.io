@@ -343,15 +343,47 @@ document.addEventListener('DOMContentLoaded', () => {
     modalIngresso.classList.add('ativo');
     modalConteudo.classList.add('ativo');
   });
+}
 
-  btnFecharModalIngresso.addEventListener('click', () => {
+document.addEventListener('DOMContentLoaded', () => {
+  const conteinerLoja = document.getElementById('cardsLoja');
 
-    modalIngresso.classList.remove('ativo');
-    modalConteudo.classList.remove('ativo');
+  if (conteinerLoja) {
+    fetch('data/loja.json') 
+      .then(response => {
+        if(!response.ok){
+          throw new Error('Erro ao carregar o arquivo JSON da loja');
+        }
+        return response.json();
+      })
+      .then(produtos => {
+        let conteudoHTML = '';
+        produtos.forEach(item => {
+          const imagemProduto = item.imagem
+            ? `<img src="${item.imagem}" class="card-img-top p-4" alt="${item.produto}" style="aspect-ratio: 1 / 1; object-fit: contain; width: 100%;">`
+            : `<div class="card-img-top bg-light d-flex justify-content-center align-items-center p-4" style="aspect-ratio: 1 / 1; width: 100%;">
+                 <i class="bi bi-box-seam text-secondary" style="font-size: 4rem;"></i>
+               </div>`;
 
-    modalIngresso.addEventListener('transitionend', () => {
-      modalIngresso.style.display = 'none';
-    }, { once: true });
-  });
+          conteudoHTML += `
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="card shadow-sm h-100 text-center overflow-hidden">
+                
+                ${imagemProduto}
 
+                <div class="card-body d-flex flex-column justify-content-between border-top">
+                  <h5 class="card-title text-primary fw-bold mt-2 mb-3">${item.produto}</h5>
+                  <p class="card-text text-success fw-bold fs-4 mb-1">${item.preco}</p>
+                </div>
+              </div>
+            </div>
+          `;
+        });
+        
+        conteinerLoja.innerHTML = conteudoHTML;
+      })
+      .catch(error => {
+        console.error('Erro na loja:', error);
+      });
+  }
 });
