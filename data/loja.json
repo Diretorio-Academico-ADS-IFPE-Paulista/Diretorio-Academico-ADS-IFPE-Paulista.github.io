@@ -1,0 +1,67 @@
+[
+    {
+        "produto":"Salgadinho Veneza Queijo",
+        "preco":"R$ 1,50",
+        "imagem":"assets/img/loja/veneza-queijo.png"
+    },
+    {
+        "produto":"Salgadinho Veneza Cebola",
+        "preco":"R$ 1,50",
+        "imagem":"assets/img/loja/veneza-cebola.png"
+    },
+    {
+        "produto":"Pipoca Karintó",
+        "preco":"R$ 2,00",
+        "imagem":"assets/img/loja/pipoca_karinto.png"
+    },
+    {
+        "produto":"Pastilha Freegells Cereja",
+        "preco":"R$ 1,50",
+        "imagem":"assets/img/loja/freegells_cereja.png"
+    },
+    {
+        "produto":"Pastilha Freegells Extra Forte",
+        "preco":"R$ 1,50",
+        "imagem":"assets/img/loja/freegells_extra_forte.png"
+    },
+    {
+        "produto":"Biscoito Recheado Futurinhos",
+        "preco":"R$ 2,00",
+        "imagem":"assets/img/loja/biscoito_futurinhos.png"
+    },
+    {
+        "produto":"Paçoca",
+        "preco":"R$ 0,40",
+        "imagem":"assets/img/loja/pacoca.png"
+    },
+    {
+        "produto":"Café Forza",
+        "preco":"R$ 2,50",
+        "imagem":"assets/img/loja/cafe_forza.png"
+    },
+    {
+        "produto":"Café Cappuccino",
+        "preco":"R$ 3,00",
+        "imagem":"assets/img/loja/cafe_cappuccino_avela.png"
+    },
+    {
+        "produto":"Café Chocollato",
+        "preco":"R$ 3,50",
+        "imagem":"assets/img/loja/cafe_chocollato.png"
+    },
+    {
+        "produto":"Chás",
+        "preco":"R$ 2,50",
+        "imagem":"assets/img/loja/cha.png"
+    },
+    {
+        "produto":"Figurinhas",
+        "preco":"R$ 1,00",
+        "imagem":"assets/img/loja/figurinhas.png"
+    },
+    {
+        "produto":"Canecas personalizadas",
+        "preco":"R$ 22,00",
+        "imagem":"assets/img/loja/caneca_personalizada.png"
+    }
+]
