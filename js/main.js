@@ -343,7 +343,22 @@ document.addEventListener('DOMContentLoaded', () => {
     modalIngresso.classList.add('ativo');
     modalConteudo.classList.add('ativo');
   });
-}
+
+if (btnFecharModalIngresso) {
+    btnFecharModalIngresso.addEventListener('click', () => {
+      modalIngresso.classList.remove('ativo');
+      modalConteudo.classList.remove('ativo');
+      setTimeout(() => {
+        modalIngresso.style.display = 'none';
+      }, 300);
+    });
+  }
+  modalIngresso.addEventListener('click', (evento) => {
+    if (evento.target === modalIngresso) {
+      btnFecharModalIngresso.click();
+    }
+  });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
   const conteinerLoja = document.getElementById('cardsLoja');
