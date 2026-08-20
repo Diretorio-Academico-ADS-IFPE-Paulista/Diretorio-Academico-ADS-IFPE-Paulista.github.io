@@ -513,7 +513,9 @@ html[data-bs-theme="dark"] .card-atalho {
   width: 100%;
   height: 100%;
   background-color: rgba(0,0,0,0.5);
-  
+  align-items: center;
+  justify-content: center;
+
   opacity: 0;
   transition: background-color 200ms ease, opacity 200ms ease;
 }
@@ -524,9 +526,10 @@ html[data-bs-theme="dark"] .card-atalho {
 
 #modal-ingresso-conteudo {
   background: white;
-  margin: 15% auto;
   padding: 20px;
-  width: 50%;
+  width: min(90%, 500px);
+  max-height: 85vh;
+  overflow-y: auto;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;

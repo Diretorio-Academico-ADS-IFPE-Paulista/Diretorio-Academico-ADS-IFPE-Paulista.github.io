@@ -72,6 +72,12 @@
             <span>Horários das Turmas</span>
           </a>
 
+          <!-- TODO: substituir "#" pelo link real do formulário de carteira de estudante -->
+          <a href="#" id="botao-carteira-atalho" class="card-atalho w-100 flex-row justify-content-start mb-3">
+            <i class="bi bi-card-heading"></i>
+            <span>Carteira de Estudante</span>
+          </a>
+
           <div class="teaser-evento d-flex flex-column gap-2 text-start">
             <div class="d-flex align-items-center gap-2">
               <i class="bi bi-calendar-event text-secondary"></i>
@@ -93,14 +99,27 @@
   <div id="modal-ingresso">
     <div id="modal-ingresso-conteudo">
       <span id="modal-ingresso-fechar">x</span>
-      <h2>Inscrições abertas!!</h2>
-      <p>As inscrições para o ingresso ao Diretório Acadêmico do curso estão abertas!</p>
-      <a href="ingresso.html" id="botao-modal-etapas" class="btn btn-primary fw-semibold">
-        Verifique as etapas!
-      </a>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVkXyIAeXrjl2o2H2f1ONXKqOIMecTX_8w1fWQfl6jFqpQGQ/viewform?usp=publish-editor" target="_blank" id="botao-modal-forms" class="btn btn-primary fw-semibold">
-        Inscreva-se!
-      </a>
+
+      <div id="secao-ingresso" class="modal-secao">
+        <h2>Inscrições abertas!!</h2>
+        <p>As inscrições para o ingresso ao Diretório Acadêmico do curso estão abertas!</p>
+        <a href="ingresso.html" id="botao-modal-etapas" class="btn btn-primary fw-semibold">
+          Verifique as etapas do ingresso ao DA
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVkXyIAeXrjl2o2H2f1ONXKqOIMecTX_8w1fWQfl6jFqpQGQ/viewform?usp=publish-editor" target="_blank" id="botao-modal-forms" class="btn btn-primary fw-semibold">
+          Inscreva-se no processo de ingresso do DA
+        </a>
+      </div>
+
+      <hr id="modal-divisor">
+
+      <div id="secao-carteira" class="modal-secao">
+        <h2>Carteira de Estudante</h2>
+        <p>O formulário de solicitação de carteira de estudante está disponível para todos os alunos do curso.</p>
+        <a href="https://forms.gle/EVgtLdAgyDGrPdmYA" id="botao-modal-carteira" class="btn btn-primary fw-semibold">
+          Solicite sua carteira de estudante
+        </a>
+      </div>
     </div>
   </div>
 

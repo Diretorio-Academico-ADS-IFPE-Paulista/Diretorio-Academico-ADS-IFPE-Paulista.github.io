@@ -9,6 +9,11 @@ const DATAS_INGRESSO = {
     encerramento: new Date(2026, 7, 21),   /* 21/08/2026 */
 };
 
+const DATAS_CARTEIRA = {
+    abertura: new Date(2026, 7, 19),   /* 19/08/2026 */
+    encerramento: new Date(2026, 8, 7),   /* 07/09/2026 */
+};
+
 const temaSalvo = localStorage.getItem('tema_da_ads') || 'light';
 document.documentElement.setAttribute('data-bs-theme', temaSalvo);
 
@@ -315,31 +320,28 @@ function configurarTema() {
   });
 }
 
-let dataAtual = new Date().setHours(0, 0, 0, 0,);
-if(dataAtual >= DATAS_INGRESSO.abertura.getTime() && dataAtual <= DATAS_INGRESSO.encerramento){
-  document.addEventListener('DOMContentLoaded', () => {
-    const modalIngresso = document.getElementById('modal-ingresso');
-    const modalConteudo = document.getElementById('modal-ingresso-conteudo');
-    const btnEtapasIngresso = document.getElementById('botao-modal-etapas');
-    const btnLinkForms = document.getElementById('botao-modal-forms');
-    const btnFecharModalIngresso = document.getElementById('modal-ingresso-fechar');
-  
-    modalIngresso.style.display = 'block';
-    requestAnimationFrame(() => {
-      modalIngresso.classList.add('ativo');
-      modalConteudo.classList.add('ativo');
-    });
-  
-    btnFecharModalIngresso.addEventListener('click', () => {
-  
-      modalIngresso.classList.remove('ativo');
-      modalConteudo.classList.remove('ativo');
-  
-      modalIngresso.addEventListener('transitionend', () => {
-        modalIngresso.style.display = 'none';
-      }, { once: true });
-    });
-  
+document.addEventListener('DOMContentLoaded', () => {
+  const dataAtual = new Date().setHours(0, 0, 0, 0);
+  const ingressoAtivo = dataAtual >= DATAS_INGRESSO.abertura.getTime() && dataAtual <= DATAS_INGRESSO.encerramento.getTime();
+  const carteiraAtiva = dataAtual >= DATAS_CARTEIRA.abertura.getTime() && dataAtual <= DATAS_CARTEIRA.encerramento.getTime();
+
+  if (!ingressoAtivo && !carteiraAtiva) return;
+
+  const modalIngresso = document.getElementById('modal-ingresso');
+  const modalConteudo = document.getElementById('modal-ingresso-conteudo');
+  const secaoIngresso = document.getElementById('secao-ingresso');
+  const secaoCarteira = document.getElementById('secao-carteira');
+  const divisor = document.getElementById('modal-divisor');
+  const btnFecharModalIngresso = document.getElementById('modal-ingresso-fechar');
+
+  secaoIngresso.style.display = ingressoAtivo ? '' : 'none';
+  secaoCarteira.style.display = carteiraAtiva ? '' : 'none';
+  divisor.style.display = (ingressoAtivo && carteiraAtiva) ? '' : 'none';
+
+  modalIngresso.style.display = 'flex';
+  requestAnimationFrame(() => {
+    modalIngresso.classList.add('ativo');
+    modalConteudo.classList.add('ativo');
   });
 }
 
