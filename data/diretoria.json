@@ -1,26 +1,20 @@
 [
     {
-        "nome": "Blenda Teodoro",
-        "diretoria": "Direção Geral",
-        "cargo": "Presidente",
-        "foto": "assets/img/membros/blenda_teodoro.jpg"
-    },
-    {
         "nome": "David Willyam de Oliveira",
         "diretoria": "Direção Geral",
-        "cargo": "Vice-Presidente",
+        "cargo": "Presidente",
         "foto": "assets/img/membros/david_de_oliveira.png"
     },
     {
         "nome": "Arthur Pereira",
         "diretoria": "Direção Geral",
-        "cargo": "Membro",
+        "cargo": "Vice-Presidente",
         "foto": "assets/img/membros/arthur_pereira.jpg"
     },
     {
         "nome": "Victor Montes",
-        "diretoria": "Diretoria de Comunicação",
-        "cargo": "Diretor",
+        "diretoria": "Direção Geral",
+        "cargo": "Membro",
         "foto": "assets/img/membros/victor_montes.jpg"
     },
     {
